@@ -6,15 +6,15 @@ body {
   /*FUENTES*/
 @font-face {
   font-family: "tituloMenu";
-  src: url("/MULTIMEDIA/FUENTES/fuente1.ttf");
+  src: url("MULTIMEDIA/FUENTES/fuente1.ttf");
 }
 @font-face {
   font-family: "tituloSub";
-  src: url("/MULTIMEDIA/FUENTES/fuente2.ttf");
+  src: url("MULTIMEDIA/FUENTES/fuente2.ttf");
 }
 @font-face {
   font-family: "texto";
-  src: url("/MULTIMEDIA/FUENTES/fuente3.ttf");
+  src: url("MULTIMEDIA/FUENTES/fuente3.ttf");
 }
 
 
