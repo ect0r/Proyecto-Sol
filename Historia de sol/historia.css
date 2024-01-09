@@ -1,0 +1,70 @@
+/* Estilos generales */
+body {
+  margin: 0;
+  padding: 0;
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-image: url("fondo.png");
+  justify-content: space-between;
+  align-items: center;
+}
+
+header {
+  background-color: #333;
+  color: white;
+  padding: 10px;
+  text-align: center;
+}
+
+h1 {
+  font-weight: bold;
+  border: 3px groove black;
+  color: white;
+  box-shadow: 0 0 10px rgba(255, 123, 0, 0.5);
+  border-radius: 10px;
+  background-color: black;
+  text-align: center;
+
+}
+
+h2 {
+  text-align: center;
+  margin-left: 5%;
+  margin-right: 5%;
+}
+
+p {
+  text-align: center;
+  background-color: lightslategrey;
+  border: 4px groove rgb(0, 150, 255);
+  margin-left: 5%;
+  margin-right: 5%;
+}
+
+#correos,
+#mayo,
+#cordero,
+#reforma1,
+#tranvias,
+#metro1920,
+#metro2023,
+#reloj,
+#uvas,
+#repu,
+#bombardeo {
+  width: 25%;
+  height: 25%;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+#km,
+#oso {
+  width: 25%;
+  height: 25%;
+  margin-left: 15%;
+  margin-right: auto;
+  max-width: 48%;
+}

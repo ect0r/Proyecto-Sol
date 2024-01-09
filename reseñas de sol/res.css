@@ -1,0 +1,104 @@
+/* Estilos generales */
+body {
+  margin: 0;
+  padding: 0;
+  background-color: #333;
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
+header {
+  background-color: #333;
+  color: white;
+  padding: 10px;
+  text-align: center;
+}
+
+nav ul {
+  list-style: none;
+  padding: 0;
+}
+
+nav ul li {
+  display: inline;
+  margin-right: 20px;
+  border: 2px double black;
+ }
+
+a {
+  text-decoration: none;
+  color: red;
+}
+
+
+/* Estilos específicos para la sección de reseñas */
+#reseñasGeneral {
+  padding: 20px;
+}
+
+#reseñasLocales {
+  padding: 20px;
+}
+
+#top5tab {
+  font-weight: bold;
+  border: 3px groove black;
+  color: yellow;
+  box-shadow: 0 0 10px rgba(255, 123, 0, 0.5);
+  border-radius: 10px;
+  background-color: red;
+  text-align: center
+}
+
+#reseñas {
+  max-width: 100%;
+  height: auto;
+  margin-top: 20px;
+}
+
+/* Estilos para la sección de restaurantes */
+#restaurantes {
+  padding: 20px;
+}
+#infotab {
+  background-color: black;
+  border: 4px groove red;
+  color: white;	
+  text-align: center;
+  font-family: "men";
+}
+#general {
+  background-color: black;
+  border: 4px groove red;
+  color: white;
+}
+iframe {
+  border: 100px groove black;
+}
+img {
+  border: 5px groove black;
+}
+#resesp{
+  font-weight: bold;
+  border: 3px groove black;
+  color: yellow;
+  box-shadow: 0 0 10px rgba(255, 123, 0, 0.5);
+  border-radius: 10px;
+  background-color: red;
+  text-align: center
+}
+#sol {
+  display: block;
+  margin: 0 auto;
+}
+h1 {
+  font-weight: bold;
+  border: 3px groove black;
+  color: white;
+  box-shadow: 0 0 10px rgba(255, 123, 0, 0.5);
+  border-radius: 10px;
+  background-color: black;
+  text-align: center;
+ 
+}

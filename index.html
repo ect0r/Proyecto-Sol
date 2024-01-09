@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="utf-8">
+  <title>PUERTA DEL SOL</title>
+  <link href="/sol.css" rel="stylesheet" type="text/css">
+  <!--Estilo-->
+  <script type="text/javascript" src='/sol.js'></script>
+  <!--Javascript-->
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- compatibilidad con moviles -->
+  <link href="MULTIMEDIA/FOTOS/iconoSol.ico" rel="icon" type="image/x-icon">
+  <!--Icono-->
+</head>
+
+<body>
+  <div id="menu">
+    <h1 id="tituloMain">P U E R T A     D E L     S O L</h1>
+    <p id="grupoTexto"> Proyecto hecho por:<br><br>Manuel Gasset,<br>Jaime Adánez,<br>Rubén Besteiro,<br>Pablo
+      Rubio<br>Raul Caballero y<br>Héctor López</p>
+    <img id="grupo" src="/MULTIMEDIA/FOTOS/grupo.png" onmouseover="mostrarGrupo()" onmouseout="ocultarGrupo()">
+
+    <div id="Avideo" onmouseover="iconoVideo()" onmouseout="iconoVideoR()" onclick="irVIDEO()">
+      <img id="foto2" src="/MULTIMEDIA/FOTOS/p1.png">
+      <img id="iconoV" src="/MULTIMEDIA/FOTOS/foto3.png">
+      <p id="menuV">ENTREVISTAS EN SOL</p>
+    </div>
+
+    <div id="Ahistoria" onmouseover="iconoHistoria()" onmouseout="iconoHistoriaR()" onclick="irHISTORIA()">
+      <a href="Historia de sol/historia.html">
+        <img id="foto1" src="/MULTIMEDIA/FOTOS/p2.jpg">
+        <img id="iconoH" src="/MULTIMEDIA/FOTOS/foto4.png">
+        <p id="menuH">HISTORIA DE SOL</p>
+    </div>
+
+    <div id="Amapa" onmouseover="iconoMapa()" onmouseout="iconoMapaR()" onclick="irMAPA()">
+      <a href="mapa/mapa.html">
+        <img id="foto4" src="/MULTIMEDIA/FOTOS/p3.png">
+        <img id="iconoM" src="/MULTIMEDIA/FOTOS/foto2.png">
+        <p id="menuM">MAPA DE SOL</p>
+      </a>
+    </div>
+
+    <div id="Areseñas" onmouseover="iconoReseñas()" onmouseout="iconoReseñasR()" onclick="irRESEÑAS()">
+      <a href="reseñas de sol/res.html">
+        <img id="foto3" src="/MULTIMEDIA/FOTOS/p4.jpg">
+        <img id="iconoR" src="/MULTIMEDIA/FOTOS/foto1.png">
+        <p id="menuR">RESEÑAS DE LOCALES</p>
+      </a>
+    </div>
+  </div>
+
+
+
+
+
+  <div id="SUBPAGINA">
+    <button onclick="CASA()" id="Casa">🏠︎</button>
+
+    <div id="HISTORIA">
+      <h2>HISTORIA DE LA PUERTA DEL SOL</h2>
+    </div>
+
+    <div id="RESEÑAS">
+      <h2>RESEÑAS DE LOCALES EN SOL</h2>
+    </div>
+
+    <div id="MAPA">
+      <h2>MAPA DE SOL</h2>
+    </div>
+
+    <div id="VIDEO">
+      <h2>ENTREVISTAS EN SOL</h2>
+      <iframe id="entrevistasVideo" src="https://www.youtube.com/embed/zR_LRy_WFmQ" title="YouTube video player"
+        frameborder="0"
+        allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+        allowfullscreen></iframe>
+    </div>
+  </div>
+</body>
+
+</html>

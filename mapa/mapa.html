@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title>Mapa interactivo Puerta del Sol</title>
+		<link href="mapa.css" rel="stylesheet" type="text/css">
+		<script defer src="mapa.js" type="text/javascript"></script>
+	</head>
+	<body onload="XD()">
+		<b><header id="h">Mapa interactivo Puerta del Sol</header>
+		<button id="indice" class="creditos"><a href="../../index.html">Volver al índice</a></button>
+    <section>
+      <article>Haz click en un número para recibir información sobre el sitio correspondiente</article>
+    </section>
+		<section>
+			<article id="articulomapa">
+				<img id="mapa" src="imagenes/puerta.jpg">
+				<button id="boton1" onmouseover="link1()" onmouseout="link0()" class="sitio"><a href="sitios/1.html">1</a></button>
+				<button id="boton2" onmouseover="link2()" onmouseout="link0()" class="sitio"><a href="sitios/2.html">2</a></button>
+				<button id="boton3" onmouseover="link3()" onmouseout="link0()" class="sitio"><a href="sitios/3.html">3</a></button>
+				<button id="boton4" onmouseover="link4()" onmouseout="link0()" class="sitio"><a href="sitios/4.html">4</a></button>
+				<button id="boton5" onmouseover="link5()" onmouseout="link0()" class="sitio"><a href="sitios/5.html">5</a></button>
+				<button id="boton6" onmouseover="link6()" onmouseout="link6()" class="sitio"><a href="sitios/6.html">6</a></button>
+				<button id="boton7" onmouseover="link7()" onmouseout="link0()" class="sitio"><a href="sitios/7.html">7</a></button>
+				</span>
+				<span style="color:white"></span>
+			</article>
+		</section>
+		<table>
+			<tr>
+				<td class="columnaizda filaarriba">Nº</td>
+				<td class="columnadcha filaarriba">Nombre</td>
+			</tr>
+			<tr>
+				<th class="columnaizda filaabajo" id="cuadro3"><span id="nº">0</span></th>
+				<th class="columnadcha filaabajo" id="cuadro4"><span id="sitio">Ninguno</span></th>
+			</tr>
+		</table>
+		<section>
+			<article id="fecha"></article>
+			<article>Mueve el ratón por encima de los botones y en la tabla de arriba podrás ver a qué corresponden</article>
+			<button class="creditos" id="botoncreditos" onclick="creditos()">Créditos</button></b>
+		</section>
+		<div class="creditos0" id="creditosXD">Hecho por Rubén</div>
+	</body>
+</html>

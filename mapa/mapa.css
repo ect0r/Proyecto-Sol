@@ -1,0 +1,269 @@
+* {
+  text-decoration: none;
+  font-family: "Lo demás";
+}
+
+body {
+  background-color: #202020;
+  text-align: center;
+}
+
+header {
+  font-family: "Encabezados";
+  margin-left: 10vw;
+  margin-right: 10vw;
+  width: 80vw;
+  font-size: 4vw;
+  background-color: #606060;
+  color: white;
+  margin-bottom: 1.5vh;
+  border: 2px solid black;
+}
+
+@font-face {
+  font-family: "Encabezados";
+  src: url("fuentes/Copperplate.ttf");
+}
+
+@font-face {
+  font-family: "Lo demás";
+  src: url("fuentes/Lucida Sans.ttf");
+}
+
+article {
+  height: 2.5vw;
+  background-color: #606060;
+  border: 2px solid #404040;
+  color: white;
+  width: 60vw;
+  margin-left: 20vw;
+  font-size: 2.2vh;
+  padding-top: 1.5vh;
+}
+
+table {
+  width: 35vw;
+  margin-top: 2vh;
+  margin-left: 33vw;
+  font-size: 3vh;
+  text-align: center;
+}
+
+.filaarriba {
+  /*width: 20vw;*/
+  background-color: white;
+  border: 2px solid gray;
+  color: black
+}
+
+.filaabajo {
+  background-color: black;
+  border: 2px solid gray;
+  margin-bottom: 10vh;
+  color: black;
+}
+
+.columnaizda {
+  width: 2vw;
+}
+
+.columnadcha {
+  width: 18vw;
+}
+
+.creditos0 {
+  display: none;
+}
+
+.creditos {
+  background-color: #808080;
+  color: white;
+  border: 2px solid black;
+  border-radius: 2px;
+  display: block;
+  font-size: 1vw;
+}
+
+.sitio {
+  color: black;
+  height: 2vw;
+  width: 2vw;
+  position: absolute;
+  z-index: 1;
+  font-size: 2.5vh;
+}
+
+#articulomapa {
+  background-color: white;
+  width: 50vw;
+  margin-left: 25vw;
+  margin-top: 2vh;
+  height: 50vh;
+  text-align: left;
+}
+
+#mapa {
+  position: absolute;
+  width: 48vw;
+  margin-left: 1vw;
+  height: 48vh;
+  margin-top: 0vh;
+}
+
+button {
+  color: black;
+}
+
+#boton {
+  margin-left: 46.5vw;
+  margin-top: 1vh;
+}
+
+#boton1 {
+  position: absolute;
+  left: 57.5%;
+  top: 48%;
+  z-index: 1;
+}
+
+#boton2 {
+  position: absolute;
+  left: 44.75%;
+  top: 55%;
+  z-index: 1;
+}
+
+#boton3 {
+  position: absolute;
+  left: 40%;
+  top: 48%;
+  z-index: 1;
+}
+
+#boton4 {
+  position: absolute;
+  left: 61%;
+  top: 43%;
+  z-index: 1;
+}
+
+#boton5 {
+  position: absolute;
+  left: 45.5%;
+  top: 64%;
+  z-index: 1;
+}
+
+#boton6 {
+  position: absolute;
+  left: 44%;
+  top: 35.5%;
+  z-index: 1;
+}
+
+#boton7 {
+  position: absolute;
+  left: 70%;
+  top: 46%;
+  z-index: 1;
+}
+
+#botoncreditos {
+  margin-top: 1.5vh;
+  margin-left: 48vw;
+}
+
+#creditosXD {
+  width: 25vw;
+  margin-left: 38vw;
+}
+
+#sitio1 {
+  margin-left: 10vw;
+  height: 126vh;
+  width: 80vw;
+  padding-left: 0.5vw;
+  padding-right: 0.5vw;
+}
+
+#sitio2 {
+  margin-left: 10vw;
+  height: 138vh;
+  width: 80vw;
+  padding-left: 0.5vw;
+  padding-right: 0.5vw;
+}
+
+#sitio3 {
+  margin-left: 10vw;
+  height: 163vh;
+  width: 80vw;
+  padding-left: 0.5vw;
+  padding-right: 0.5vw;
+}
+
+#sitio4 {
+  margin-left: 10vw;
+  height: 99vh;
+  width: 80vw;
+  padding-left: 0.5vw;
+  padding-right: 0.5vw;
+}
+
+#sitio5 {
+  margin-left: 10vw;
+  height: 121vh;
+  width: 80vw;
+  padding-left: 0.5vw;
+  padding-right: 0.5vw;
+}
+
+#sitio6 {
+  margin-left: 10vw;
+  height: 103vh;
+  width: 80vw;
+  padding-left: 0.5vw;
+  padding-right: 0.5vw;
+}
+
+#sitio7 {
+  margin-left: 10vw;
+  height: 95vh;
+  width: 80vw;
+  padding-left: 0.5vw;
+  padding-right: 0.5vw;
+}
+
+img {
+  height: 25vh;
+  margin-top: 1vh;
+  display: inline-block;
+}
+
+.textopequeño {
+  font-size: 1.5vh;
+  margin-bottom: 1vw;
+}
+
+br {
+  margin-bottom: 0.33vh;
+}
+
+#bruh {
+  height: 40vh;
+}
+
+#minibr {
+  margin-bottom: -10vh;
+}
+
+#indice {
+  margin-left: 47vw;
+  margin-top: -1vh;
+  margin-bottom: 0.5vh;
+  color: white;
+}
+
+.link {
+  text-decoration: underline;
+}
